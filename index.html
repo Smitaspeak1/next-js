@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Dynamically Add/Remove Table Rows using jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div>
+        <div class="dash"><h2>DashBoard</h2></div>
+    </div>
+
+    <input type='button' value='Create A New Row' id='add_row'>
+
+
+    <table id='tbl'>
+      <thead>
+        
+        <tr>
+          <th>ID</th>
+          <th>Student Name</th>
+          <th>Student Roll</th>
+          <th>Subject</th>
+          <th>Marks</th>
+          <th>Marked By</th>
+          <th>Save</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type='text' name='uname[]'></td>
+          <td><input type='text' name='age[]'></td>
+          <td><input type='text' name='uname[]'></td>
+          <td><input type='text' name='age[]'></td>
+          <td><input type='text' name='uname[]'></td>
+          <td><input type='text' name='age[]'></td>
+          
+          <td><input type='button' value='Save' class='smv'></td>
+        </tr>
+      </tbody>
+      
+       
+      
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>

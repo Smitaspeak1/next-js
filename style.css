@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 100px;
+    
+}
+
+h2{
+    position: fixed;
+    width: 1728px;
+    height: 50px;
+    left:0px;
+    top: 0px;
+    color:white;
+    background: #000000;
+    text-align: left;
+    line-height: 39PX;
+    
+    
+    
+}
+
+#tbl{
+    width:50%;
+    margin:50px auto;
+    border-collapse:collapse;
+    border:none;
+    
+  }
+  #tbl td,#tbl th{
+    border:1px solid black ;
+    padding:15px;
+  }
+
+ td{
+    border: none;
+ }
+    
+  
